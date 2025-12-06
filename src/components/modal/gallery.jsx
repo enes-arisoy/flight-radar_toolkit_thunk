@@ -5,7 +5,7 @@ import '@splidejs/react-splide/css';
 const Gallery = ({ images }) => {
   const arr = images?.large
     ? images.large
-    : images.medium
+    : images?.medium
     ? images.medium
     : images.thumbnails;
 

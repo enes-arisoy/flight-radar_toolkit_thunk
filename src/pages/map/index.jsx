@@ -71,7 +71,7 @@ const Map = () => {
           <Popup>
             <div className="popup">
               <h3>Departure</h3>
-              <span>{info?.airport?.origin.name}</span>
+              <span>{info?.airport?.origin?.name}</span>
               <div className="position">
                 <span>{info?.airport?.origin?.position?.country?.name}</span> /
                 <span>{info?.airport?.origin?.position?.region?.city}</span>
